@@ -1,0 +1,270 @@
+\begin{corollary}
+ \label{thmtype:1.1.2}
+If $a$ and $b$ are any two real numbers$,$ then
+\begin{equation} \label{eq:1.1.4}
+|a-b|\ge\big||a|-|b|\big|
+\end{equation}
+and
+\begin{equation} \label{eq:1.1.5}
+|a+b|\ge\big||a|-|b|\big|.
+\end{equation}
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:1.3.6}  A set is closed if and only if it
+contains all its limit points$.$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:2.2.13}
+If $f$ is continuous on a set $T,$ then  $f$ is  uniformly continuous
+on any finite closed interval contained in $T.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:3.3.13}
+If $f'$ is integrable on $[a,b],$ then
+$$
+\int_a^b f'(x)\,dx=f(b)-f(a).
+$$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.3.6}
+If $\sum a_n$ converges$,$ then $\lim_{n\to\infty}a_n=0.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.3.7}
+If
+$\sum a_n$ converges$,$ then for each $\epsilon>0$ there is an integer
+$K$ such that
+$$
+\left|\sum_{n=k}^\infty a_n\right|<\epsilon\mbox{\quad if\quad} k\ge
+K;
+$$
+that is$,$
+$$
+\lim_{k\to\infty}\sum_{n=k}^\infty a_n=0.
+$$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.3.12}
+Suppose that  $a_n\ge0$ and $b_n>0$ for $n\ge k,$ and
+$$
+\lim_{n\to\infty}\frac{a_n}{ b_n}=L,
+$$
+where $0<L<\infty.$ Then $\sum a_n$ and $\sum b_n$ converge or
+diverge together$.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.3.15}
+Suppose that  $a_n>0\ (n\ge k)$ and
+$$
+\lim_{n\to\infty}\frac{a_{n+1}}{ a_n}=L.
+$$
+\vskip-1em
+Then
+\begin{alist}
+\item % (a)
+ $\sum a_n<\infty$ if  $L<1.$
+\item % (b)
+ $\sum a_n=\infty$  if  $L>1.$
+\end{alist}
+The test is inconclusive if $L=1.$
+\end{corollary}
+
+\begin{corollary}
+
+[\href{http://www-history.mcs.st-and.ac.uk/Mathematicians/Abel.html}
+{Abel}'s Test]
+\label{thmtype:4.3.21}
+The series $\sum a_nb_n$ converges if $a_{n+1}\le a_n$ for $n\ge k,$
+$\lim_{n\to\infty}a_n=0,$ and
+$$
+|b_k+b_{k+1}+\cdots+b_n|\le M,\quad n\ge k,
+$$
+for some constant $M.$
+\end{corollary}
+
+\begin{corollary}
+ [Alternating Series Test] \label{thmtype:4.3.22}
+The series $\sum (-1)^na_n$ converges if $0\le a_{n+1}\le a_n$ and
+$\lim_{n\to\infty} a_n=0.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.4.8}
+If $\{F_n\}$ converges uniformly to $F$ on $S$ and each $F_n$ is
+continuous on $S,$ then so is $F;$ that is$,$ a uniform limit of
+continuous functions is continuous.
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.4.14}
+If $\sum f_n$ converges uniformly on $S,$ then
+$\lim_{n\to\infty}\|f_n\|_S=0.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:4.4.17}
+The series $\sum_{n=k}^\infty  f_ng_n$ converges uniformly on $S$ if
+$$
+f_{n+1}(x)\le f_n(x),\quad x\in S,\quad n\ge k,
+$$
+$\{f_n\}$ converges uniformly to zero on $S,$ and
+$$
+\|g_k+g_{k+1}+\cdots+g_n\|_S\le M,\quad n\ge k,
+$$
+for some constant $M.$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:4.5.6}
+If
+$$
+f(x)=\sum^\infty_{n=0} a_n(x-x_0)^n,\quad |x-x_0|<R,
+$$
+then
+$$
+a_n=\frac{f^{(n)}(x_0)}{ n!}.
+$$
+\end{corollary}
+
+\begin{corollary}
+ [Uniqueness of Power Series]\label{thmtype:4.5.7}
+If
+\begin{equation}\label{eq:4.5.13}
+\sum^\infty_{n=0} a_n(x-x_0)^n=\sum^\infty_{n=0} b_n(x-x_0)^n
+\end{equation}
+for all $x$ in some interval $(x_0-r,x_0+r),$ then
+\begin{equation}\label{eq:4.5.14}
+a_n=b_n,\quad n\ge0.
+\end{equation}
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:5.1.7}
+ If $\mathbf{X},$ $\mathbf{Y},$ and
+$\mathbf{Z}$ are  in $\R^n,$ then
+$$
+|\mathbf{X}-\mathbf{Z}|\le
+|\mathbf{X}-\mathbf{Y}|+|\mathbf{Y}-\mathbf{Z}|.
+$$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:5.1.8}
+If $\mathbf{X}$ and $\mathbf{Y}$ are
+ in $\R^n,$ then
+$$
+|\mathbf{X}-\mathbf{Y}|\ge\left| |\mathbf{X}|-|\mathbf{Y}|\right|.
+$$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:5.4.4}
+ Under the assumptions of Theorem~$\ref{thmtype:5.4.3},$
+\begin{equation} \label{eq:5.4.8}
+\frac{\partial h(\mathbf{U}_0)}{\partial u_i}=\sum_{j=1}^n \frac{\partial
+f(\mathbf{X}_0)
+}{\partial x_j} \frac{\partial g_j(\mathbf{U}_0)}{\partial u_i},\quad
+1\le i
+\le m.
+\end{equation}
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:5.4.6}
+If $f_{x_1},$ $f_{x_2},$ \dots$,$ $f_{x_n}$ are identically zero in an
+open region $S$ of $\R^n,$ then $f$ is constant in $S.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:5.4.11}
+Suppose that  $f,$ $f_x,$ and $f_y$ are differentiable in a neigborhood
+of a critical point $\mathbf{X}_0=(x_0,y_0)$ of $f$ and $f_{xx},$
+$f_{yy},$ and
+$f_{xy}$ are continuous at $(x_0,y_0).$ Let
+$$
+D=f_{xx}(x_0,y_0)f_{xy}(x_0,y_0)-f^2_{xy}(x_0,y_0).
+$$
+Then
+\begin{alist}
+\item % (a)
+ $(x_0,y_0)$ is a local extreme point of $f$ if $D>0;$ $(x_0,y_0)$
+is a local minimum point if $f_{xx}(x_0,y_0)>0$, or a local maximum
+point if
+$f_{xx}(x_0,y_0)<0.$
+\item % (b)
+$(x_0,y_0)$ is not a local extreme point of $f$ if $D<0.$
+\end{alist}
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:6.3.5}
+If $\mathbf{F}$ is continuously differentiable on a
+neighborhood  of $\mathbf{X}_0$ and $J\mathbf{F}(\mathbf{X}_0)\ne 0,$ then
+there is an open neighborhood $N$ of $\mathbf{X}_0$ on which the
+conclusions of Theorem~$\ref{thmtype:6.3.4}$ hold$.$
+\end{corollary}
+
+\begin{corollary}
+ \label{thmtype:6.4.2}
+Suppose that  $f:\R^{n+1}\to \R$ is continuously
+differentiable on an open set containing $(\mathbf{X}_0,u_0),$ with
+$f(\mathbf{X}_0,u_0)=0$
+and
+$f_u(\mathbf{X}_0,u_0)\ne0$.
+Then there is a neighborhood $M$ of $(\mathbf{X}_0,u_0),$ contained in
+$S,$ and a neighborhood $N$ of $\mathbf{X}_0$ in $\R^n$ on which
+is defined a unique continuously differentiable function
+$u=u(\mathbf{X}):\R^n\to
+\R$ such that
+$$
+(\mathbf{X},u(\mathbf{X}))\in M\mbox{\quad and \quad}
+ f_u(\mathbf{X},u(\mathbf{X}))\ne0,\quad\mathbf{X}\in N,
+$$
+$$
+u(\mathbf{X}_0)=u_0, \mbox{\quad and \quad}
+f(\mathbf{X},u(\mathbf{X}))=0,\quad\mathbf{X}\in N.
+$$
+The partial derivatives of $u$ are given by
+$$
+u_{x_i}(\mathbf{X})=-\frac{f_{x_i}(\mathbf{X},u(\mathbf{X}))}{
+f_u(\mathbf{X},u(\mathbf{X}))},\quad 1\le i\le n.
+$$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:7.1.31}
+Suppose that
+ $f$ is integrable on sets $S_1$ and $S_2$ such that $S_1\cap S_2$
+has zero content$.$ Then $f$ is integrable on $S_1\cup S_2,$ and
+$$
+\int_{S_1\cup S_2} f(\mathbf{X})\,d\mathbf{X}=
+\int_{S_1} f(\mathbf{X})\,d\mathbf{X}+
+\int_{S_2} f(\mathbf{X})\,d\mathbf{X}.
+$$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:7.2.2}
+If $f$ is integrable on $[a,b] \times [c,d],$ then
+$$
+\int_a^b dx\int_c^d f(x,y)\,dy=\int_c^d dy\int_a^b f(x,y)\,dx,
+$$
+provided that $\int_c^d f(x,y)\,dy$ exists for $a\le x\le b$ and
+$\int_a^b
+f(x,y)\,dx$ exists for $c\le y\le d.$ In particular$,$ these
+hypotheses hold if $f$ is continuous on $[a,b]\times [c,d].$
+\end{corollary}
+
+\begin{corollary}
+\label{thmtype:7.3.2}
+If $f$ is bounded and continuous on a
+bounded Jordan measurable set $S,$ then $f$ is integrable on $S.$
+\end{corollary}
+
